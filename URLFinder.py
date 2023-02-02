@@ -1,3 +1,6 @@
+# c0ff33b34n
+# Basic URL fetcher
+
 import argparse
 import requests
 from bs4 import BeautifulSoup
