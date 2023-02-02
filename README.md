@@ -1,2 +1,2 @@
 # subFuzz3r.py
-SubDomain Finder made with AI
+SubDomain Finder
