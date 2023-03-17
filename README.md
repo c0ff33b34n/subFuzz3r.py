@@ -2,4 +2,4 @@
 
 SubDomain Finder; 
 
-$ python3 subFuzzer.py -u url.tld -w wordlist.txt
+$ python3 subFuzz3r.py -u url.tld -w wordlist.txt
