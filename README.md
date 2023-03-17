@@ -2,4 +2,6 @@
 
 SubDomain Finder; 
 
-$ python3 subFuzz3r.py -u url.tld -w wordlist.txt
+$ python3 subFuzz3r.py -u url.tld
+
+$ python3 subFuzz3r.py -u url.tld -w custom_wordlist.txt
