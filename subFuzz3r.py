@@ -22,7 +22,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Find subdomains for a given domain name")
     parser.add_argument("-u", "--url", required=True, help="The domain name to search for subdomains")
     parser.add_argument("-s", "--silent", action="store_true", help="Suppress output and only save results to subs.txt")
-    parser.add_argument("-w", "--wordlist", default="subdomains.txt", help="The wordlist file to use for subdomain search")
+    parser.add_argument("-w", "--wordlist", default="wordlist.txt", help="The wordlist file to use for subdomain search")
     args = parser.parse_args()
 
     if not args.silent:
